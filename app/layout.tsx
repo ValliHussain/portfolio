@@ -6,12 +6,18 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { Inter as FontSans } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Hussain Valli | Personal Portfolio",
+  description:
+    "Hussain Valli is a web developer well-versed in the MERN stack.",
 };
 
 export default function RootLayout({

@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
+        {/* After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
@@ -33,7 +33,11 @@ export default function About() {
         . I am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer. */}
+        I am a passionate web developer with a strong proficiency in the MERN
+        (MongoDB, Express.js, React.js, Node.js) stack. My enthusiasm lies in
+        designing and implementing responsive and dynamic web applications,
+        coupled with a knack for problem-solving.
       </p>
 
       <p>

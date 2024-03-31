@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import home from "@/public/home.png";
+import project from "@/public/project2.png";
 
 export const links = [
   {
@@ -24,8 +23,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -35,56 +34,79 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduation",
+    location: "Visakhapatnam, AP, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I've completed my graduation in Information Technology with overall CGPA of 8.3.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intermediate",
+    location: "Visakhapatnam, AP, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I've completed my intermediate Sri Gayatri Junior College with overall marks of 902",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "I - X Schooling",
+    location: "Visakhapatnam, AP, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "At Sri Sarada Vidya Nilayam, I completed my schooling from I to Xstd, achieving a notable 9.7 CGPA in Xstd.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018",
   },
 ] as const;
 
+// export const experiencesData = [
+//   {
+//     title: "Graduation",
+//     location: "AP, India",
+//     description:
+//       "I've completed my graduation in Information Technology with overall CGPA of 8.3. ",
+//     icon: React.createElement(LuGraduationCap),
+//     date: "2020-2024",
+//   },
+//   {
+//     title: "Intermediate",
+//     location: "AP, India",
+//     description:
+//       "I've completed my intermediate Sri Gayatri Junior College with overall marks of 902 ",
+//     icon: React.createElement(CgWorkAlt),
+//     date: "2019 - 2021",
+//   },
+//   {
+//     title: "Schooling",
+//     location: "Visakhapatnam, AP, India",
+//     description:
+//       "I've completed my intermediate Sri Gayatri Junior College with CGPA of 9.7.",
+//     icon: React.createElement(FaReact),
+//     date: "2021 - present",
+//   },
+// ] as const;
+
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Querisphere",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Querisphere revolutionizes student engagement, offering intuitive modules that foster collaborative learning and vibrant community interaction.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Express", "Node.js"],
+    imageUrl: home,
   },
   {
-    title: "rmtDev",
+    title: "Watto Meter",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Our project aims to conserve electricity by providing users with Jio and Airtel-style data usage alerts, keeping them engaged in monitoring their consumption.",
+    tags: ["React", "MongoDB", "Tailwind", "Redux", "Express", "Node.js"],
+    imageUrl: project,
   },
 ] as const;
 
 export const skillsData = [
+  "C",
+  "Cpp",
+  "Java",
   "HTML",
   "CSS",
   "JavaScript",
@@ -94,14 +116,13 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
+  "Machine Learning",
+  "Deep Learning",
+  "Pandas",
+  "Numpy",
+  "SQL",
 ] as const;
